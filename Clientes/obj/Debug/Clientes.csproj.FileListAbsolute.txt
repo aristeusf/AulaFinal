@@ -1,0 +1,16 @@
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\Clientes.exe.config
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\Clientes.exe
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\Clientes.pdb
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\obj\Debug\Clientes.csprojResolveAssemblyReference.cache
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\obj\Debug\Clientes.Properties.Resources.resources
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\obj\Debug\Clientes.csproj.GenerateResource.Cache
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\obj\Debug\Clientes.exe
+c:\users\b1400079\documents\visual studio 2015\Projects\Clientes\Clientes\obj\Debug\Clientes.pdb
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\obj\Debug\Clientes.frmPrincipal.resources
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\BaseDados.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\BaseDados.pdb
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\obj\Debug\Clientes.frmPesquisa.resources
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\SapRfc.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\sapnco.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\sapnco_utils.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\SapRfc.pdb

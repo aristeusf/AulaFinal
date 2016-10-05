@@ -1,0 +1,7 @@
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\bin\Debug\SapRfc.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\bin\Debug\SapRfc.pdb
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\bin\Debug\sapnco.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\bin\Debug\sapnco_utils.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\obj\Debug\SapRfc.csprojResolveAssemblyReference.cache
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\obj\Debug\SapRfc.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\obj\Debug\SapRfc.pdb
