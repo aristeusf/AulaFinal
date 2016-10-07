@@ -52,6 +52,7 @@ namespace Clientes
         {
             switch (salvar)
             {
+                #region Novo
                 case "Novo":
                     txtId.Enabled = false;
                     txtNome.Enabled = true;
@@ -64,7 +65,8 @@ namespace Clientes
                     bntSalvar.Enabled = true;
                     HabilitaDesabilitaCampos();
                     break;
-
+                #endregion
+                #region Busca
                 case "Busca":
                     txtId.Enabled = true;
                     txtNome.Enabled = true;
@@ -73,7 +75,8 @@ namespace Clientes
                     bntBuscarId.Enabled = true;
                     bntBuscarNome.Enabled = true;
                     break;
-
+                #endregion
+                #region Editar
                 case "Editar":
                     txtId.Enabled = false;
                     txtNome.Enabled = true;
@@ -85,7 +88,8 @@ namespace Clientes
                     bntNovo.Enabled = false;
                     HabilitaDesabilitaCampos();
                     break;
-
+                #endregion
+                #region default
                 default:
                     txtId.Enabled = true;
                     txtNome.Enabled = true;
@@ -96,6 +100,7 @@ namespace Clientes
                     bntCancelar.Enabled = false;
                     HabilitaDesabilitaCampos();
                     break;
+                    #endregion
             }
         }
 

@@ -29,6 +29,8 @@ namespace SapRfc
 
             IRfcTable t_ret = rfc.GetTable("T_RET");
 
+            IRfcStructure s_ret = rfc.GetStructure("ESTRUTURA");
+
             return rfc.GetValue("E_CODCLI").ToString();
         }
 

@@ -11,7 +11,7 @@ namespace BaseDados
 {
     public class csBaseDados
     {
-        bdServerDataContext bd = new bdServerDataContext();
+        public bdServerDataContext bd = new bdServerDataContext();
 
         public List<Estado> getEstados()
         {
@@ -85,7 +85,9 @@ namespace BaseDados
             {
                 object[] row = changes.Rows[i].ItemArray;
 
-                sql = "update Clientes set " + ConfigurationManager.AppSettings[row[1].ToString()].ToString() + " = '" + row[2].ToString() + "' where id = '" + row[0].ToString() + "'";
+                sql = "update Clientes set " + ConfigurationManager.AppSettings[row[1].ToString()].ToString() + " = '" + 
+                          row[2].ToString() + "' where id = '" + 
+                          row[0].ToString() + "'";
 
                 cmd.CommandText = sql;
 
@@ -94,8 +96,6 @@ namespace BaseDados
             }
 
             conn.Close();
-
-            
         }
     }
 }
