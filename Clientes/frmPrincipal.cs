@@ -209,7 +209,14 @@ namespace Clientes
 
                     case "Editar":
 
-                        bd.UpdateCliente(txtId.Text, txtNome.Text, txtCnpj.Text, txtLogradouro.Text, txtBairro.Text, txtCidade.Text, txtCep.Text, cboUf.SelectedValue.ToString());
+                        if (rfc.EditaCliente(txtId.Text, txtNome.Text, txtCnpj.Text, txtLogradouro.Text, txtBairro.Text, txtCidade.Text, txtCep.Text, cboUf.Text))
+                        {
+                            bd.UpdateCliente(txtId.Text, txtNome.Text, txtCnpj.Text, txtLogradouro.Text, txtBairro.Text, txtCidade.Text, txtCep.Text, cboUf.SelectedValue.ToString());
+                            MessageBox.Show("Cliente atualizado com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                            salvar = "";
+                            LimpaCampos();
+                            HabilitaDesabilita();
+                        }
 
                         break;
 
@@ -219,6 +226,13 @@ namespace Clientes
             {
                 MessageBox.Show("Erro ao salvar cliente! " + exp.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            sapCon sap = new sapCon();
+
+            sap.CheckRFC();
         }
     }
 }

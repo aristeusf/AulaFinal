@@ -47,8 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="rfcIn.cs" />
     <Compile Include="rfcOut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sapCon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseDados\BaseDados.csproj">
+      <Project>{ab2e5bb3-626c-4168-ac65-3eccab287201}</Project>
+      <Name>BaseDados</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

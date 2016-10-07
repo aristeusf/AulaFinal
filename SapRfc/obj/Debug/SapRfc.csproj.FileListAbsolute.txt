@@ -5,3 +5,5 @@ C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\bin\Debu
 C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\obj\Debug\SapRfc.csprojResolveAssemblyReference.cache
 C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\obj\Debug\SapRfc.dll
 C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\obj\Debug\SapRfc.pdb
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\bin\Debug\BaseDados.dll
+C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\SapRfc\bin\Debug\BaseDados.pdb

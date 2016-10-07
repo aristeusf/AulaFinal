@@ -17,3 +17,42 @@ SAP.Middleware.Connector.RfcAbapRuntimeException: The function module "ZHBR_CRIA
    at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
    at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
    at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2016-10-06 15:57:57-03:00 (E. South America Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug, Program: C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\Clientes.vshost.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 60 Step 3), Operating system: Microsoft Windows NT 6.1.7601 Service Pack 1, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: HBWKS0817, IP address: 192.168.56.1, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2016-10-06 15:57:57.957
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SAP.Middleware.Connector.DefaultServerConfiguration.GetParameters(String destinationName)
+   at SAP.Middleware.Connector.RfcServerManager.GetServer(String serverName, Type[] rfcFunctionHandlers, RfcRepository repository)
+**** Trace file opened at 2016-10-06 15:58:13-03:00 (E. South America Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug, Program: C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\Clientes.vshost.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 60 Step 3), Operating system: Microsoft Windows NT 6.1.7601 Service Pack 1, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: HBWKS0817, IP address: 192.168.56.1, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2016-10-06 15:58:13.680
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SAP.Middleware.Connector.DefaultServerConfiguration.GetParameters(String destinationName)
+   at SAP.Middleware.Connector.RfcServerManager.GetServer(String serverName, Type[] rfcFunctionHandlers, RfcRepository repository)
+**** Trace file opened at 2016-10-06 16:04:06-03:00 (E. South America Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug, Program: C:\Users\B1400079\documents\visual studio 2015\Projects\Clientes\Clientes\bin\Debug\Clientes.vshost.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 60 Step 3), Operating system: Microsoft Windows NT 6.1.7601 Service Pack 1, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: HBWKS0817, IP address: 192.168.56.1, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2016-10-06 16:04:06.180
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SAP.Middleware.Connector.DefaultServerConfiguration.GetParameters(String destinationName)
+   at SAP.Middleware.Connector.RfcServerManager.GetServer(String serverName, Type[] rfcFunctionHandlers, RfcRepository repository)

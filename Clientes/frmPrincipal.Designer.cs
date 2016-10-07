@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.bntBuscarNome = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -50,6 +51,7 @@
             this.bntEditar = new System.Windows.Forms.Button();
             this.bntSalvar = new System.Windows.Forms.Button();
             this.bntCancelar = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // bntBuscarNome
@@ -252,6 +254,12 @@
             this.bntCancelar.UseVisualStyleBackColor = true;
             this.bntCancelar.Click += new System.EventHandler(this.bntCancelar_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -314,6 +322,7 @@
         public System.Windows.Forms.TextBox txtCidade;
         public System.Windows.Forms.TextBox txtCep;
         public System.Windows.Forms.ComboBox cboUf;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
